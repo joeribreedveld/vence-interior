@@ -12,7 +12,7 @@ const Navbar = () => {
           VENCE<span className="text-[#DDBEA9]">.</span>
         </h3>
       </section>
-      <section>
+      <section className="md:shown hidden">
         <ul className="flex items-center gap-6">
           <NavLink isActive={true}>Example</NavLink>
           <NavLink>Inspiration</NavLink>

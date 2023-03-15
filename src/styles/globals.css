@@ -16,6 +16,10 @@
 /* Utilities Layer */
 @layer utilities {
     .page-width {
-        @apply px-16
+        @apply md:px-16 px-8
+    }
+    
+    .page-width-m {
+        @apply md:mx-16 mx-8
     }
 }
