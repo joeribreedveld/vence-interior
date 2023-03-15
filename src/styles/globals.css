@@ -9,3 +9,13 @@
         font-family: 'Poppins', sans-serif;
     }
   }
+
+/* Components Layer */
+@layer components {}
+
+/* Utilities Layer */
+@layer utilities {
+    .page-width {
+        @apply px-16
+    }
+}
