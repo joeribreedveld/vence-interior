@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
     <nav className="page-width flex items-center justify-between py-8">
       <section>
-        <h2 className="text-lg font-bold text-[#495057]">
+        <h3 className="text-lg font-bold text-[#495057]">
           VENCE<span className="text-[#DDBEA9]">.</span>
-        </h2>
+        </h3>
       </section>
       <section>
         <ul className="flex items-center gap-6">
