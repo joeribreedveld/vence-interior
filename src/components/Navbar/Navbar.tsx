@@ -1,7 +1,7 @@
 // Imports
 import Link from "next/link";
 import classNames from "classnames";
-import { INavLinkProps } from "./Navbar.types";
+import { type INavLinkProps } from "./Navbar.types";
 
 // Functions
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
           VENCE<span className="text-[#DDBEA9]">.</span>
         </h3>
       </section>
-      <section className="md:shown hidden">
+      <section className="hidden md:block">
         <ul className="flex items-center gap-6">
           <NavLink isActive={true}>Example</NavLink>
           <NavLink>Inspiration</NavLink>
