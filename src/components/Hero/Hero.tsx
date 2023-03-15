@@ -3,7 +3,7 @@
 // Functions
 const Hero = () => (
   <section className="page-width-m relative flex h-[32rem] items-center justify-center rounded bg-[#212529] text-center text-white">
-    <div className="absolute z-10 h-full w-full overflow-hidden rounded bg-[url('/img/hero.jpg')] bg-cover opacity-60"></div>
+    <div className="absolute z-10 h-full w-full overflow-hidden rounded bg-[url('/img/hero.jpg')] bg-cover bg-center opacity-60"></div>
     <section className="z-20">
       <section className="flex flex-col gap-4 p-4">
         <p className="text-xs font-light">Tomas Edwardo</p>
