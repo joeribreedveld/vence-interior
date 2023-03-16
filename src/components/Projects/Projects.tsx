@@ -1,5 +1,6 @@
 // Imports
 import classNames from "classnames";
+import { type IProjectProps } from "./Projects.types";
 
 // Functions
 const Projects = () => (
@@ -52,7 +53,7 @@ const Projects = () => (
   </section>
 );
 
-const Project = ({ img, id }) => (
+const Project = ({ img, id }: IProjectProps) => (
   <li
     className={classNames({
       "hidden md:block": id > 3,
