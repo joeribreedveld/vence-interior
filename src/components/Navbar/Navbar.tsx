@@ -23,13 +23,13 @@ const Navbar = () => {
       <section className="flex items-center gap-6 text-xs">
         <ul className="flex items-center gap-6">
           <li className="opacity-50">
-            <a className="hover:cursor-pointer">Fb</a>
+            <a className="font-medium hover:cursor-pointer">Fb</a>
           </li>
           <li className="opacity-50">
-            <a className="hover:cursor-pointer">Tw</a>
+            <a className="font-medium hover:cursor-pointer">Tw</a>
           </li>
           <li className="opacity-50">
-            <a className="hover:cursor-pointer">Ln</a>
+            <a className="font-medium hover:cursor-pointer">Ln</a>
           </li>
         </ul>
         <div className="h-[1.5rem] w-[1px] bg-[#E5E5E5]"></div>
