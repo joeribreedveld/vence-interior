@@ -3,7 +3,7 @@
 // Functions
 const Footer = () => (
   <footer className="bg-[#212529]">
-    <div className="mt-25 page-width flex w-full w-full flex-col gap-8  py-24">
+    <div className="page-width flex w-full flex-col gap-8  py-24">
       <section className="flex items-center justify-between">
         <h3 className="font-bold text-[#F8F9FA]">
           VENCE Studio<span className="text-[#DDBEA9]">.</span>
