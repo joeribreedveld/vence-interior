@@ -1,6 +1,6 @@
-# VENCE Clone
+# VENCE SimpleSmart
 
-This is a website clone from a design made by [SimpleSmart](https://mysimplesmart.com/).
+This is a website implementation of a design made by [SimpleSmart](https://mysimplesmart.com/).
 
 ## Tech Stack
 - Next.js
