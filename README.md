@@ -1,4 +1,4 @@
-# VENCE SimpleSmart
+# VENCE
 
 This is a website implementation of a design made by [SimpleSmart](https://mysimplesmart.com/).
 
