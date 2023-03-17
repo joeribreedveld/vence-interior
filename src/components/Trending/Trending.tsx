@@ -1,6 +1,7 @@
 // Imports
 import classNames from "classnames";
 import { type ITrendProps } from "./Trending.types";
+import Image from "next/image";
 
 // Functions
 const Trending = () => (
@@ -27,9 +28,9 @@ const Trend = ({ cols, id, img }: ITrendProps) => (
       "md:block lg:hidden xl:block": id > 4,
     })}
   >
-    <div
-      className={`absolute z-10 h-full w-full overflow-hidden rounded bg-[url('/img/trending-${id}.jpg')] bg-cover bg-center opacity-80`}
-    ></div>
+    <div className="absolute z-10 h-full w-full overflow-hidden rounded bg-cover bg-center opacity-80">
+      <Image className="object-cover" src={`/img/${img}.jpg`} fill></Image>
+    </div>
     <section className="absolute z-20 flex h-full flex-col justify-end gap-4 p-12">
       <h5 className="text-xs font-light text-[#E5E5E5]">29.Jun.2021</h5>
       <h4 className="max-w-[35ch] font-medium text-white">
