@@ -1,6 +1,7 @@
 // Imports
 import classNames from "classnames";
 import { type IProjectProps } from "./Projects.types";
+import Image from "next/image";
 
 // Functions
 const Projects = () => (
@@ -61,11 +62,14 @@ const Project = ({ img, id }: IProjectProps) => (
     })}
   >
     <article className="flex flex-col gap-8">
-      <img
-        src={`img/${img}.jpg`}
-        alt="Interior image"
-        className="h-[16rem] rounded object-cover"
-      />
+      <div className="relative h-[16rem] overflow-hidden rounded">
+        <Image
+          src={`/img/${img}.jpg`}
+          alt="Interior image"
+          className="object-cover"
+          layout="fill"
+        />
+      </div>
       <section className="bg flex flex-col gap-4">
         <h5 className="text-xs font-light text-[#495057]">29.Jun.2021</h5>
         <h4 className="font-medium text-[#212529]">
