@@ -8,11 +8,11 @@ const Trending = () => (
     <h2 className="text-2xl font-bold text-[#212529]">Trending</h2>
     <section>
       <ul className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-        <Trend id={1} img="hero" cols={2} />
-        <Trend id={2} img="hero" />
-        <Trend id={3} img="hero" />
-        <Trend id={4} img="hero" />
-        <Trend id={5} img="hero" />
+        <Trend id={1} img="trending-1" cols={2} />
+        <Trend id={2} img="trending-2" />
+        <Trend id={3} img="trending-3" />
+        <Trend id={4} img="trending-4" />
+        <Trend id={5} img="trending-5" />
       </ul>
     </section>
   </section>
