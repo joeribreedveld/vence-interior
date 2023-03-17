@@ -106,7 +106,7 @@ const Project = ({ img, id }: IProjectProps) => (
         />
       </div>
       <section className="bg flex flex-col gap-4">
-        <h5 className="text-xs font-light text-[#495057]">29.Jun.2021</h5>
+        <h3 className="text-xs font-light text-[#495057]">29.Jun.2021</h3>
         <h4 className="font-medium text-[#212529]">
           Richard Norton photorealistic rendering as real photos
         </h4>

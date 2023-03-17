@@ -37,7 +37,7 @@ const Trend = ({ cols, id, img }: ITrendProps) => (
       ></Image>
     </div>
     <section className="absolute z-20 flex h-full flex-col justify-end gap-4 p-12">
-      <h5 className="text-xs font-light text-[#E5E5E5]">29.Jun.2021</h5>
+      <h3 className="text-xs font-light text-[#E5E5E5]">29.Jun.2021</h3>
       <h4 className="max-w-[35ch] font-medium text-white">
         Richard Norton photorealistic rendering as real photos
       </h4>
