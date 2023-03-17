@@ -10,34 +10,52 @@ const Footer = () => (
         </h3>
         <ul className="hidden items-center gap-6 md:flex">
           <li>
-            <a className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer">
+            <a
+              href="#"
+              className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer"
+            >
               About Studio
             </a>
           </li>
           <li>
-            <a className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer">
+            <a
+              href="#"
+              className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer"
+            >
               Archive
             </a>
           </li>
           <li>
-            <a className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer">
+            <a
+              href="#"
+              className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer"
+            >
               Contact Us
             </a>
           </li>
         </ul>
         <ul className="flex items-center gap-6">
           <li>
-            <a className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer">
+            <a
+              href="#"
+              className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer"
+            >
               Fb
             </a>
           </li>
           <li>
-            <a className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer">
+            <a
+              href="#"
+              className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer"
+            >
               Tw
             </a>
           </li>
           <li>
-            <a className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer">
+            <a
+              href="#"
+              className="text-xs font-medium text-[#F8F9FA] opacity-50 hover:cursor-pointer"
+            >
               Ln
             </a>
           </li>
