@@ -28,7 +28,7 @@ const Trend = ({ cols, id, img }: ITrendProps) => (
     })}
   >
     <div
-      className={`absolute z-10 h-full w-full overflow-hidden rounded bg-[url('/img/${img}.jpg')] bg-cover bg-center opacity-80`}
+      className={`absolute z-10 h-full w-full overflow-hidden rounded bg-[url('/img/trending-${id}.jpg')] bg-cover bg-center opacity-80`}
     ></div>
     <section className="absolute z-20 flex h-full flex-col justify-end gap-4 p-12">
       <h5 className="text-xs font-light text-[#E5E5E5]">29.Jun.2021</h5>
