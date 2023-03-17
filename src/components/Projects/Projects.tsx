@@ -15,25 +15,39 @@ const Projects = () => (
       <section className="hidden xl:block">
         <ul className="flex items-center gap-6">
           <li>
-            <a className="text-xs font-medium text-[#495057]">All</a>
+            <a className="text-xs font-medium text-[#495057] hover:cursor-pointer">
+              All
+            </a>
           </li>
           <li>
-            <a className="text-xs font-medium text-[#C4C4C4]">Modern</a>
+            <a className="text-xs font-medium text-[#C4C4C4] hover:cursor-pointer">
+              Modern
+            </a>
           </li>
           <li>
-            <a className="text-xs font-medium text-[#C4C4C4]">Industrial</a>
+            <a className="text-xs font-medium text-[#C4C4C4] hover:cursor-pointer">
+              Industrial
+            </a>
           </li>
           <li>
-            <a className="text-xs font-medium text-[#C4C4C4]">Art Moderne</a>
+            <a className="text-xs font-medium text-[#C4C4C4] hover:cursor-pointer">
+              Art Moderne
+            </a>
           </li>
           <li>
-            <a className="text-xs font-medium text-[#C4C4C4]">Contemporary</a>
+            <a className="text-xs font-medium text-[#C4C4C4] hover:cursor-pointer">
+              Contemporary
+            </a>
           </li>
           <li>
-            <a className="text-xs font-medium text-[#C4C4C4]">Industrial</a>
+            <a className="text-xs font-medium text-[#C4C4C4] hover:cursor-pointer">
+              Industrial
+            </a>
           </li>
           <li>
-            <a className="text-xs font-medium text-[#C4C4C4]">Minimalist</a>
+            <a className="text-xs font-medium text-[#C4C4C4] hover:cursor-pointer">
+              Minimalist
+            </a>
           </li>
         </ul>
       </section>
